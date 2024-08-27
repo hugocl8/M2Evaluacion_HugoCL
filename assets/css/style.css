@@ -1,0 +1,69 @@
+/*Colocar uso de cada línea*/
+
+/* Fondo */
+body {
+    background-image: url(../imagenes/helecho.jpg); /* imagen */
+    background-position: center; 
+    background-size: cover; /*Fondo completo*/
+    background-repeat: no-repeat; /*No se repite la imagen*/
+    background-attachment: fixed; /*Movimiento*/
+}
+
+/* Estilo para recuadros */
+.content-box {
+    background-color: rgba(0, 0, 0, 0.7);  /* Fondo negro con 70% de opacidad */
+    color: white;  /*Texto en color blanco*/
+    padding: 20px;
+    border-radius: 10px;  /*Bordes redondeados*/
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);  /*Sombra para destacar el recuadro*/
+    max-width: 800px;  /*Ancho máximo del recuadro*/
+}
+
+/*Estilo para card*/
+.card {
+    background-color: rgba(0, 0, 0, 0);  /*Hacer la tarjeta transparente*/
+    border: none;  /*Sin bordes*/
+    color: white;  /* exto en blanco*/
+}
+
+.card .btn-primary {
+    background-color: #343a40;  /*Fondo oscuro para el botón*/
+    border-color: #343a40;  /*Borde oscuro*/
+}
+
+.card .btn-primary:hover {
+    background-color: #495057;  /*Efecto hover más claro*/
+    border-color: #495057;  /*Borde más claro en hover*/
+}
+
+/*Estilo y color para navbar*/
+.navbar {
+    background-color: #000000 !important;  /*Fondo negro*/
+}
+
+.navbar .nav-link, .navbar .navbar-brand {
+    color: #ffffff !important;  /*Texto blanco*/
+}
+
+.navbar .nav-link:hover {
+    color: #f8f9fa !important;  /*Texto más claro*/
+}
+
+/*Estilo y color para footer*/
+footer.bg-dark {
+    background-color: #000000 !important;  /*Fondo negro*/
+    color: #ffffff !important;  /*exto blanco*/
+}
+
+footer.bg-dark a {
+    color: #ffffff !important;  /*Enlaces en blanco*/
+}
+
+footer.bg-dark a:hover {
+    color: #f8f9fa !important;  /*Enlaces más claros*/
+}
+
+footer.bg-dark p {
+    color: #ffffff !important;  /*Texto en blanco*/
+}
+
