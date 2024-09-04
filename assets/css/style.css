@@ -19,6 +19,10 @@ body {
     max-width: 800px;  /*Ancho máximo del recuadro*/
 }
 
+h2 {
+    text-align: center; /*Centrar los h2*/
+}
+
 /*Estilo para card*/
 .card {
     background-color: rgba(0, 0, 0, 0);  /*Hacer la tarjeta transparente*/
@@ -26,14 +30,23 @@ body {
     color: white;  /* exto en blanco*/
 }
 
-.card .btn-primary {
-    background-color: #343a40;  /*Fondo oscuro para el botón*/
-    border-color: #343a40;  /*Borde oscuro*/
+#projects .card {
+    width: 100%; /*Usar todo el ancho disponible*/
+    text-align: center;
+    margin: 0 auto;
 }
 
-.card .btn-primary:hover {
-    background-color: #495057;  /*Efecto hover más claro*/
-    border-color: #495057;  /*Borde más claro en hover*/
+.skill-icon {
+    width: 80px; /*Ajuste de tamaño de imagenes*/
+    height: 80px; /*Misma altura de las iamgenes*/
+    object-fit: contain; /*Ajusta la imagen para que se ajuste sin distorsión*/
+    transition: transform 0.6s ease; /*Añade una transición suave*/
+    transform-style: preserve-3d; /*Mantiene el estilo 3D*/
+    perspective: 1000px; /*Define la perspectiva para el efecto 3D*/
+}
+
+.skill-icon:hover {
+    transform: rotateY(180deg); /*Gira alrededor del eje y*/
 }
 
 /*Estilo y color para navbar*/
